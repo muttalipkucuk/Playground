@@ -103,5 +103,4 @@ public class PlaygroundApp implements InitializingBean {
         log.info("\n----------------------------------------------------------\n\t" +
                 "Config Server: \t{}\n----------------------------------------------------------", configServerStatus);
     }
-    
 }
