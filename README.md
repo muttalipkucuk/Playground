@@ -134,3 +134,23 @@ mvn -N io.takari:maven:wrapper
 ### Run Swagger-editor at http://localhost:7742
 `docker-compose -f src/main/docker/swagger-editor.yml up -d`
 
+```
+Which *type* of application would you like to create? Microservice application
+? What is the base name of your application? Playground
+? As you are running in a microservice architecture, on which port would like your server to run? It should be unique to avoid por
+t conflicts. 8081
+? What is your default Java package name? com.kucuk
+? Which service discovery server do you want to use? JHipster Registry (uses Eureka, provides Spring Cloud Config support and moni
+toring dashboards)
+? Which *type* of authentication would you like to use? JWT authentication (stateless, with a token)
+? Which *type* of database would you like to use? Cassandra
+? Do you want to use the Spring cache abstraction? Yes, with the Ehcache implementation (local cache, for a single node)
+? Would you like to use Maven or Gradle for building the backend? Maven
+? Which other technologies would you like to use? Asynchronous messages using Apache Kafka, API first development using OpenAPI-ge
+nerator
+? Would you like to enable internationalization support? Yes
+? Please choose the native language of the application English
+? Please choose additional languages to install Dutch
+? Besides JUnit and Jest, which testing frameworks would you like to use? Gatling, Cucumber
+? Would you like to install other generators from the JHipster Marketplace? No
+```
