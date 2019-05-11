@@ -122,3 +122,15 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 [openapi-generator]: https://openapi-generator.tech
 [swagger-editor]: http://editor.swagger.io
 [doing api-first development]: https://www.jhipster.tech/documentation-archive/v6.0.0/doing-api-first-development/
+
+## My remarks:
+
+### Cassandra: create namespace `playground`
+CREATE KEYSPACE playground WITH REPLICATION = {     'class' : 'SimpleStrategy',     'replication_factor' : 1    };
+
+### Missing maven-wrapper.jar
+mvn -N io.takari:maven:wrapper
+
+### Run Swagger-editor at http://localhost:7742
+`docker-compose -f src/main/docker/swagger-editor.yml up -d`
+
